@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <button onclick="getData()">Get Weather Data</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        function getData() {
+            fetch("http://127.0.0.1:5000/weather")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText =
+                    "City: " + data.city +
+                    "\nTemperature: " + data.temperature +
+                    "\nHumidity: " + data.humidity;
+            });
+        }
+    </script>
+</body>
+</html>
+

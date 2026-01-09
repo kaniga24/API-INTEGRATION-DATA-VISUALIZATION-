@@ -25,3 +25,4 @@ The frontend component of this project is minimal but functional. The Flask serv
 The tools and technologies used in this task include Python, Flask, Requests, Matplotlib, and Seaborn. All required dependencies are listed in the requirements.txt file to ensure easy installation and reproducibility. This task demonstrates a complete workflow of API integration, backend development, data processing, and visualization. Overall, it fulfills the task requirements by successfully fetching live data from a public API and presenting it through a visual dashboard, making it suitable for real-world data-driven applications.
 
 #OUTPUT#
+<img width="904" height="488" alt="Image" src="https://github.com/user-attachments/assets/919b5093-e513-4ceb-8e2f-c34451951c9f" />
